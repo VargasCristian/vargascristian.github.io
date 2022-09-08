@@ -68,14 +68,12 @@ body{
     margin-bottom: 10px;
 }
 .card .contenido a{
-    margin-bottom: 5px;
-    padding: 5px;
+    margin: 5px;
     font-size: 25px;
     color: #303C6A;
 }
 
 .card .contenido a:hover{
-    color: #6F8BF7;
+    color: #fbb620;
 }
-
 
