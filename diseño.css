@@ -55,8 +55,19 @@ body{
     margin-bottom: 15px;
 }
 
-.card.contenido a{
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
+.card.contenido.links{
+    position: absolute;
+    z-index: 90;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow:  2px 3px 5px rgba(73, 69, 52, 0.4);
+    padding: 20px;
+    align-items: center;
+    right: 10px;
+    top: 15px;
+    transition: 0.5s;
+    
 }
