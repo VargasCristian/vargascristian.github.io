@@ -48,14 +48,15 @@ body{
 }
 
 .card .contenido{
-    padding: 15px;
+    padding: 2em;
     text-align: center;
+    margin-top: 10px;
 }
 
-.card.contenido p{
-    line-height: 1.3;
+.card.contenido ul{
+    font-size: 18px;
     color: #6a6a6a;
-    margin: 1px;
+    
 }
 
 .card .contenido h3{
@@ -66,11 +67,13 @@ body{
 .card.contenido h4{
     font-weight: 200;
     margin-bottom: 10px;
+
 }
 .card .contenido a{
-    margin: 5px;
+    margin: 4px;
     font-size: 25px;
     color: #303C6A;
+    padding: 10px 3% 20px;
 }
 
 .card .contenido a:hover{
